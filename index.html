@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Anjali 🎂❤️</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0c080d;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 35px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.glow {
+  color: #ff78aa;
+  text-shadow: 0 0 10px #ff4d88, 0 0 25px #ff4d88;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 9vw, 5.4rem);
+  margin: 12px 0;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 5vw, 2.8rem);
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 680px;
+  color: #e8dfe7;
+}
+
+button {
+  margin: 10px;
+  padding: 14px 24px;
+  border: 0;
+  border-radius: 30px;
+  background: #ff4d88;
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 77, 136, .25);
+  transition: .3s;
+}
+
+button:hover {
+  transform: scale(1.06);
+}
+
+.secondary {
+  background: #20151e;
+  border: 1px solid #ff78aa;
+}
+
+.card {
+  width: 100%;
+  max-width: 720px;
+  padding: 30px 24px;
+  border: 1px solid #472637;
+  border-radius: 25px;
+  background: rgba(255,255,255,.045);
+  box-shadow: 0 0 40px rgba(255,77,136,.08);
+}
+
+.big-heart {
+  font-size: 82px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  50% { transform: scale(1.12); }
+}
+
+.cake {
+  font-size: 78px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  50% { transform: translateY(-10px); }
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hidden-message {
+  display: none;
+  margin-top: 25px;
+  line-height: 2;
+  color: #ffe0ec;
+  overflow-wrap: anywhere;
+}
+
+.heart {
+  position: fixed;
+  bottom: -40px;
+  z-index: 5;
+  pointer-events: none;
+  animation: floatUp 6s linear forwards;
+}
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0) rotate(0);
+    opacity: .9;
+  }
+  to {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.sparkle {
+  font-size: 28px;
+  animation: sparkle 2s infinite alternate;
+}
+
+@keyframes sparkle {
+  from { opacity: .5; transform: scale(.9); }
+  to { opacity: 1; transform: scale(1.15); }
+}
+
+small {
+  color: #a69aa3;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 25px 15px;
+  color: #a69aa3;
+  font-size: .85rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- 1. THE GRAND BIRTHDAY WELCOME -->
+<section>
+  <div class="big-heart">🎂💗</div>
+
+  <div class="sparkle">✨ A SPECIAL DAY FOR SOMEONE SPECIAL ✨</div>
+
+  <h1 class="glow">Happy Birthday, Anjali!</h1>
+
+  <p id="typing"></p>
+
+  <p>
+    From your future sister-in-law,
+    with lots of love, hugs and a little madness. 🫂💕
+  </p>
+
+  <button onclick="nextSection()">
+    Your Birthday Surprise Awaits 🎁 →
+  </button>
+</section>
+
+
+<!-- 2. THE GIRL WHO BECAME FAMILY -->
+<section class="fade">
+  <div class="card">
+    <h2>Anjali, Listen... 🥹❤️</h2>
+
+    <p>
+      Sometimes, life brings people into our lives in the most unexpected
+      ways. And sometimes, those people slowly become much more than
+      we ever imagined.
+    </p>
+
+    <p>
+      You came into my life as my brother's girlfriend,
+      but honestly, I don't want our bond to be limited to that.
+    </p>
+
+    <p>
+      <strong class="glow">
+        I want you to feel like you have a sister in me, too. 💗
+      </strong>
+    </p>
+
+    <p>
+      Someone you can laugh with, share things with, tease,
+      and count on whenever you need a little extra love.
+    </p>
+  </div>
+</section>
+
+
+<!-- 3. CUTE FUTURE BHABHI MOMENTS -->
+<section class="fade">
+  <h2 class="glow">A Little Secret, Birthday Girl! 🤭</h2>
+
+  <div class="card">
+    <div class="big-heart">👀😂</div>
+
+    <p>
+      So, Anjali madam...
+    </p>
+
+    <p>
+      You know you are dating my brother, right?
+      That means you have officially signed up for a lifetime
+      of our family's drama! 🤣
+    </p>
+
+    <p>
+      And if you become my bhabhi one day,
+      just know that I already have a lifetime membership
+      to tease you. No cancellation allowed! 😂💗
+    </p>
+
+    <p>
+      But jokes apart, I'm genuinely happy to have you in my life.
+      Here's to more laughter, silly conversations and beautiful memories.
+    </p>
+
+    <small>
+      Terms and conditions: teasing is permanent. Love is unlimited. 🤝❤️
+    </small>
+  </div>
+</section>
+
+
+<!-- 4. MY BIRTHDAY WISHES FOR YOU -->
+<section class="fade">
+  <div class="card">
+    <h2>My Wishes for You 🌷</h2>
+
+    <p>
+      On your birthday, I wish you a life full of:
+    </p>
+
+    <p>
+      🌸 Smiles that come straight from your heart.<br>
+      ✨ Dreams that turn into beautiful realities.<br>
+      🦋 Peace on the days when life feels difficult.<br>
+      💖 Love that makes you feel appreciated.<br>
+      🎀 Success that makes you proud of yourself.<br>
+      🫂 People who stand beside you through everything.
+    </p>
+
+    <p>
+      May you always have the courage to choose your happiness
+      and the confidence to know how special you truly are.
+    </p>
+
+    <p class="glow">
+      You deserve so many beautiful things, Anjali. ❤️
+    </p>
+  </div>
+</section>
+
+
+<!-- 5. A MESSAGE FROM MY HEART -->
+<section class="fade">
+  <div class="cake">🎂🎁</div>
+
+  <h2>Something I Really Want You to Know 💌</h2>
+
+  <p>
+    There is a little message here that I made especially for you.
+    No skipping, birthday girl! 🥹
+  </p>
+
+  <button onclick="reveal('heartMessage', this)">
+    Open Your Special Letter 💗
+  </button>
+
+  <div id="heartMessage" class="card hidden-message">
+    <h2 class="glow">Dear Anjali, ❤️</h2>
+
+    Happy Birthday to a girl who has a special place in my heart.
+
+    <br><br>
+
+    I may not always say it, but I'm really glad that our paths crossed.
+    You are not just someone who is dating my brother;
+    you are someone I want to share a beautiful bond with in my own way.
+
+    <br><br>
+
+    I hope you never feel that you have to be perfect to be loved
+    or that you have to face everything alone.
+
+    <br><br>
+
+    I hope we get to share countless memories, laugh at the
+    most ridiculous things, have our own little conversations,
+    and create a bond that becomes stronger with time.
+
+    <br><br>
+
+    And yes, if you become my bhabhi, remember:
+    I'll support you, love you, and annoy you equally. 😂🫶
+
+    <br><br>
+
+    <strong class="glow">
+      Happy Birthday, Anjali. I'm really happy you're part of my life. 💖
+    </strong>
+  </div>
+</section>
+
+
+<!-- 6. BIRTHDAY GIRL INTERACTIVE MOMENT -->
+<section class="fade">
+  <h2 class="glow">Okay, Birthday Girl! 🥳</h2>
+
+  <p>
+    Choose your birthday mood. And choose wisely,
+    because your answer determines your official birthday title! 😂
+  </p>
+
+  <div>
+    <button onclick="birthdayMood('princess')">
+      👑 Birthday Princess
+    </button>
+
+    <button class="secondary" onclick="birthdayMood('drama')">
+      😂 Queen of Drama
+    </button>
+
+    <button class="secondary" onclick="birthdayMood('bhabhi')">
+      💗 Future Bhabhi
+    </button>
+  </div>
+
+  <div id="moodReply" class="card hidden-message"></div>
+</section>
+
+
+<!-- 7. YOUR BIRTHDAY WISH -->
+<section class="fade">
+  <div class="big-heart">🕯️🎂</div>
+
+  <h2>Make a Wish, Anjali! ✨</h2>
+
+  <p>
+    Close your eyes, think of something that makes your heart happy,
+    and make your birthday wish.
+  </p>
+
+  <button onclick="makeWish()">
+    My Wish Is Made! 🌟
+  </button>
+
+  <div id="wishReply" class="card hidden-message">
+    <h2 class="glow">May It Come True! 💫</h2>
+
+    May the universe surprise you with happiness,
+    open doors to beautiful opportunities,
+    and bring you closer to everything your heart desires.
+
+    <br><br>
+
+    You deserve a year that makes you smile when you look back. ❤️
+
+    <br><br>
+
+    <strong>Happy Birthday once again, Anjali! 🎂💗</strong>
+  </div>
+</section>
+
+
+<!-- 8. THE FINAL HUG -->
+<section class="fade">
+  <div class="big-heart">🫂💖</div>
+
+  <h2 class="glow">One Last Thing...</h2>
+
+  <p>
+    Thank you for being you, Anjali.
+  </p>
+
+  <p>
+    I hope this birthday brings you endless smiles,
+    sweet surprises, new adventures, and so many reasons to be happy.
+  </p>
+
+  <p>
+    Whatever the future holds, I hope our bond keeps growing
+    into something beautiful.
+  </p>
+
+  <p>
+    <strong class="glow">
+      Happy Birthday, meri pyaari Anjali! 🎂❤️
+    </strong>
+  </p>
+
+  <p>
+    Lots of love, hugs and birthday wishes from your
+    future partner-in-crime. 🥹💕
+  </p>
+
+  <small>
+    Made with love, sisterhood, and a little bit of family drama. 🌙
+  </small>
+
+  <button onclick="sendLove()">
+    One Last Hug? 🫂
+  </button>
+
+  <div id="hugReply" class="hidden-message"></div>
+</section>
+
+<footer>
+  A little birthday universe, made especially for Anjali. 💗
+</footer>
+
+
+<script>
+const message =
+  "You deserve all the happiness in the world today and every day. 💗";
+
+let letterIndex = 0;
+
+function typeMessage() {
+  const target = document.getElementById("typing");
+
+  if (letterIndex < message.length) {
+    target.textContent += message.charAt(letterIndex);
+    letterIndex++;
+    setTimeout(typeMessage, 45);
+  }
+}
+
+typeMessage();
+
+
+function nextSection() {
+  window.scrollBy({
+    top: window.innerHeight,
+    behavior: "smooth"
+  });
+}
+
+
+const sections = document.querySelectorAll(".fade");
+
+function revealSections() {
+  sections.forEach(section => {
+    if (section.getBoundingClientRect().top < window.innerHeight - 70) {
+      section.classList.add("show");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealSections);
+revealSections();
+
+
+function reveal(id, button) {
+  const message = document.getElementById(id);
+
+  message.style.display = "block";
+  button.style.display = "none";
+
+  burst();
+}
+
+
+function birthdayMood(mood) {
+  const reply = document.getElementById("moodReply");
+
+  const messages = {
+    princess:
+      "👑 OFFICIALLY THE BIRTHDAY PRINCESS! Your only duty today is to look cute, eat cake and accept compliments. No responsibilities allowed! 🎂💗",
+
+    drama:
+      "😂 QUEEN OF DRAMA! The family group chat is not ready for your birthday energy. Keep shining, keep laughing and keep entertaining us! 👑💕",
+
+    bhabhi:
+      "🤭 FUTURE BHABHI ENERGY! Application received, birthday privileges activated! 😂❤️ Just remember, your sister-in-law reserves the right to tease you forever!"
+  };
+
+  reply.textContent = messages[mood];
+  reply.style.display = "block";
+
+  burst();
+
+  reply.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+}
+
+
+function makeWish() {
+  const reply = document.getElementById("wishReply");
+
+  reply.style.display = "block";
+
+  burst();
+
+  reply.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+}
+
+
+function sendLove() {
+  const reply = document.getElementById("hugReply");
+
+  reply.style.display = "block";
+  reply.innerHTML =
+    '<span class="glow"><strong>BIGGEST BIRTHDAY HUG FOR YOU, ANJALI! 🫂💗</strong></span><br><br>' +
+    'Consider yourself officially hugged, squeezed and showered with birthday love! 😂❤️<br><br>' +
+    'Now go eat some cake. This is an order from your future partner-in-crime! 🎂';
+
+  burst();
+
+  reply.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+}
+
+
+function burst() {
+  const emojis = ["❤️", "💖", "💕", "🌸", "🎀", "✨", "🎉", "🦋"];
+
+  for (let i = 0; i < 35; i++) {
+    const heart = document.createElement("div");
+
+    heart.className = "heart";
+    heart.textContent =
+      emojis[Math.floor(Math.random() * emojis.length)];
+
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (18 + Math.random() * 25) + "px";
+    heart.style.animationDuration = (3 + Math.random() * 3) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => heart.remove(), 6500);
+  }
+}
+
+
+// Gentle floating hearts
+setInterval(() => {
+  const heart = document.createElement("div");
+
+  heart.className = "heart";
+  heart.textContent = ["❤️", "💕", "💗", "✨"][
+    Math.floor(Math.random() * 4)
+  ];
+
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.fontSize = (14 + Math.random() * 18) + "px";
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => heart.remove(), 6000);
+}, 1000);
+</script>
+
+</body>
+</html>
